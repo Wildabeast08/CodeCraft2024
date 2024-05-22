@@ -1,9 +1,9 @@
 package com.Wildabeast08.codecraft;
 
+import com.Wildabeast08.codecraft.registry.CCBlocks;
+import com.Wildabeast08.codecraft.registry.CCCreativeModeTabs;
+import com.Wildabeast08.codecraft.registry.CCItems;
 import com.mojang.logging.LogUtils;
-import com.your_name.your_mod_id.registry.YMIBlocks;
-import com.your_name.your_mod_id.registry.YMICreativeModeTabs;
-import com.your_name.your_mod_id.registry.YMIItems;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 public class CodeCraft
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "CodeCraft";
+    public static final String MOD_ID = "codecraft";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
